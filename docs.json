@@ -1,127 +1,68 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Navina Knowledge Base",
+  "theme": "maple",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    "primary": "#5d07e2",
+    "light": "#7e3af2",
+    "dark": "#4b06b7"
   },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
-  "navbar": {
-    "links": [
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "groups": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "group": "Introduction",
+        "pages": [
+          "introduction/what-is-navina",
+          "introduction/core-concepts",
+          "introduction/quickstart"
+        ]
+      },
+      {
+        "group": "Products & Solutions",
+        "pages": [
+          "products-and-solutions/chart-review",
+          "products-and-solutions/risk-adjustment",
+          "products-and-solutions/quality-management",
+          "products-and-solutions/analytics"
+        ]
+      },
+      {
+        "group": "User Guides",
+        "pages": [
+          "user-guides/for-providers",
+          "user-guides/for-acos-and-msos",
+          "user-guides/for-health-plans"
+        ]
+      },
+      {
+        "group": "Technical Documentation",
+        "pages": [
+          "technical-documentation/integrations",
+          "technical-documentation/deployment",
+          "technical-documentation/security-and-compliance"
+        ]
+      },
+      {
+        "group": "Internal Resources",
+        "pages": [
+          {
+            "group": "Sales & CS",
+            "pages": [
+              "internal-resources/sales-and-cs/resources"
+            ]
+          },
+          {
+            "group": "Product & Engineering",
+            "pages": [
+              "internal-resources/product-and-engineering/resources"
+            ]
+          }
+        ]
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+    ]
   }
 }
